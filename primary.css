@@ -44,7 +44,7 @@
 }
 
 .footer-button {
-    flex: 0 0 0;
+    flex: 1 1 0;
     background-color: lavender;
     color: purple;
     border: none;
