@@ -23,6 +23,10 @@
     border-radius: 10px
 }
 
+.card-content {
+    padding: 10px;
+}
+
 .card-image {
     border-radius: 10px
     flex: 1 1 0;
