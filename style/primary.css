@@ -1,14 +1,29 @@
-
-.card{
-    width: 4px;
-    margin: 10px;
-    background-color: darkgrey;
-    border:solid 1px;
-    box-shadow: 0 2p 2px 0 rgba(0, 0, 0, 0.1);
+.column {
+    display: flex;
+    flex-direction: column;
 }
 
-.placeholder-for-image{
-    width:400;
-    height: 250;
-    background-color: blue;
+.quote {
+    align-items: center
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+}
+
+.card {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 100%;
+}
+
+.quote-title {
+    flex: 1 1 auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.quote-body {
+    flex: 1 1 auto;
+    text-align: center;
 }
